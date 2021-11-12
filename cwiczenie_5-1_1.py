@@ -9,4 +9,4 @@ class Vcards:
         self.e_mail = e_mail
         print(f"Imię i nazwisko: {self.first_name} {self.last_name}, email: {self.e_mail}")
 
-cards = [Vcards(first_name, last_name, e_mail) for first_name, last_name, e_mail in zip(fn, ln, e_m)]
+clients = [Vcards(first_name, last_name, e_mail) for first_name, last_name, e_mail in zip(fn, ln, e_m)]
